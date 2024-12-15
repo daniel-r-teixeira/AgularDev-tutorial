@@ -1,15 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
+  standalone: true,
   selector: 'app-root',
-  imports: [],
-  template: `
-    <main>
-      <header class = "brand-name">
-          <img class = "brand-logo" src = "/assets/logo.svg" alt = "logo" aria-hidden = "true">
-      </header>
-    </main>
-  `,
+  template: `<h1>Hello World!</h1>`,
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {

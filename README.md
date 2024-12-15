@@ -1,3 +1,20 @@
-# AgularDev-tutorial
+# Angular Homes App
+- Install Angular if you don't have it installed
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/daniel-r-teixeira/AgularDev-tutorial)
+  `npm install -g @angular/cli`
+
+- Clone this branch to your local machine
+
+  `git clone -b homes-app-start git@github.com:angular/codelabs.git homes-app`
+
+- Once the code has been downloaded
+
+  `cd homes-app`
+
+- Install the depencies
+
+  `npm install` 
+
+- Run the application 
+
+  `ng serve`
