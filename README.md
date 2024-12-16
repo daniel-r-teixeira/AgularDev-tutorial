@@ -1,19 +1,18 @@
 # Angular Homes App
-- Install Angular if you don't have it installed
-
-  `npm install -g @angular/cli`
-
-- Clone this branch to your local machine
-
-  `git clone -b homes-app-start git@github.com:angular/codelabs.git homes-app`
-
 - Once the code has been downloaded
 
   `cd homes-app`
 
 - Install the depencies
 
-  `npm install` 
+  `npm install`
+
+- Run DB Server
+  `npm install json-server`
+  `json-server --watch db.json`
+
+  - Update host in `housing.service.ts` with host your API
+    `host = "https://agulardevtutorial-gyun-o0ncbffu--3000--c8c182a3.local-corp.webcontainer.io"`
 
 - Run the application 
 
