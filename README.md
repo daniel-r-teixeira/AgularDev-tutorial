@@ -1,13 +1,13 @@
 # Angular Homes App
-- Once the code has been downloaded
+- Once the code has been downloaded, entry in root project folder
 
-  `cd homes-app`
+  `cd <root-project-folder>`
 
 - Install the depencies
 
   `npm install`
 
-- Run DB Server
+- Run DB Server in another terminal [opcional]
   
   `npm install json-server`
   `json-server --watch db.json`
